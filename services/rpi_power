@@ -1,0 +1,14 @@
+#!/bin/bash
+     
+case "$1" in
+   start)
+      echo "Starting RPI Power service"
+      python /userdata/system/scripts/python/power.py &
+   ;;
+   stop)
+      echo "TODO: stop service"
+   ;;
+   status)
+      echo "TODO: print status"
+   ;;
+esac

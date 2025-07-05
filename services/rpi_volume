@@ -1,0 +1,14 @@
+#!/bin/bash
+     
+case "$1" in
+   start)
+      echo "Starting RPI Volume service"
+      python /userdata/system/scripts/python/volume.py &
+   ;;
+   stop)
+      echo "TODO: stop service"
+   ;;
+   status)
+      echo "TODO: print status"
+   ;;
+esac
